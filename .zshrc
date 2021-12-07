@@ -14,3 +14,5 @@ function yt() { yarn test $1 --no-graphql }
 function gi() { git rebase -i HEAD~$1 }
 
 alias ggpush+='git push origin +$(git_current_branch)'
+alias sc='systemctl'
+alias jc='journalctl'
